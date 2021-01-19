@@ -13,26 +13,26 @@ func reverse(s string) string {
 func addBinary(a string, b string) string {
 	n, m := len(a)-1, len(b)-1
 	if n < m {
-		return addBinary(b,a)
+		return addBinary(b, a)
 	}
 	carry := 0
 	var sb bytes.Buffer
-	for ; n>=0; n,m = n-1,m-1{
-		if a[n] == '1'{
+	for ; n >= 0; n, m = n-1, m-1 {
+		if a[n] == '1' {
 			carry++
 		}
-		if m>=0 && b[m] =='1'{
+		if m >= 0 && b[m] == '1' {
 			carry++
 		}
 
-		if carry %2 == 1{
+		if carry%2 == 1 {
 			sb.WriteString("1")
-		} else{
+		} else {
 			sb.WriteString("0")
 		}
 		carry /= 2
 	}
-	if carry == 1{
+	if carry == 1 {
 		sb.WriteString("1")
 	}
 	return reverse(sb.String())
