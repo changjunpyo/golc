@@ -7,30 +7,30 @@ import (
 	"github.com/changjunpyo/golang-leetcode/data-structures"
 )
 
-type examples1704 struct {
-	params1704
-	ans1704
+type examples206 struct {
+	params206
+	ans206
 }
 
-type params1704 struct {
+type params206 struct {
 	nums1 []int
 }
 
-type ans1704 struct {
+type ans206 struct {
 	ans []int
 }
 
-func Test_Problems1704(t *testing.T) {
+func Test_Problems206(t *testing.T) {
 
-	ex := []examples1704{
+	ex := []examples206{
 		{
-			params1704{[]int{1, 2, 3, 4, 5}},
-			ans1704{[]int{5, 4, 3, 2, 1}},
+			params206{[]int{1, 2, 3, 4, 5}},
+			ans206{[]int{5, 4, 3, 2, 1}},
 		},
 	}
-	fmt.Println("-------------------- Problem 1704. Subsets --------------------")
+	fmt.Println("-------------------- Problem 206.--------------------")
 	for _, e := range ex {
-		_, p := e.ans1704, e.params1704
+		_, p := e.ans206, e.params206
 		fmt.Printf("Input: %v\nOutput: %v\n", p.nums1,
 			data_structures.ListNodeToIntSlice(reverseList(data_structures.IntSliceToListNode(p.nums1))))
 	}

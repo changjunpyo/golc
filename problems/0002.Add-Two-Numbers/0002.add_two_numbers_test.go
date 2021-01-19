@@ -36,7 +36,7 @@ func Test_Problems2(t *testing.T) {
 			ans2{[]int{8, 9, 9, 9, 0, 0, 0, 1}},
 		},
 	}
-	fmt.Println("-------------------- Problem 2. Subsets --------------------")
+	fmt.Println("-------------------- Problem 2.--------------------")
 	for _, e := range ex {
 		_, p := e.ans2, e.params2
 		fmt.Printf("Input: %v %v\n Output: %v\n", p.nums1, p.nums2,

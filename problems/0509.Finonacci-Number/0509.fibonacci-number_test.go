@@ -32,7 +32,7 @@ func Test_Problems509(t *testing.T) {
 			ans509{6765},
 		},
 	}
-	fmt.Println("-------------------- Problem 509. Subsets --------------------")
+	fmt.Println("-------------------- Problem 509.--------------------")
 	for _, e := range ex {
 		_, p := e.ans509, e.params509
 		fmt.Printf("Input: %v\nOutput: %v\n", p.num, fib(p.num))

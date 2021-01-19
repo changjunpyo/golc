@@ -32,7 +32,7 @@ func Test_Problems1636(t *testing.T) {
 			ans1636{[]int{5, -1, 4, 4, -6, -6, 1, 1, 1}},
 		},
 	}
-	fmt.Println("-------------------- Problem 1636. Subsets --------------------")
+	fmt.Println("-------------------- Problem 1636. --------------------")
 	for _, e := range ex {
 		_, p := e.ans1636, e.params1636
 		fmt.Printf("Input: %v\n Output: %v\n", p.nums, frequencySort(p.nums))

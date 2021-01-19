@@ -1,4 +1,4 @@
-# [78. Subsets](https://leetcode.com/problems/subsets/)
+# [78. Subsets(Medium)](https://leetcode.com/problems/subsets/)
 
 ## 문제
 

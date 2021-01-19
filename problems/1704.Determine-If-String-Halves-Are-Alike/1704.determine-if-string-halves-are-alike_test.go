@@ -35,7 +35,7 @@ func Test_Problems1704(t *testing.T) {
 			ans1704{true},
 		},
 	}
-	fmt.Println("-------------------- Problem 1704. Subsets --------------------")
+	fmt.Println("-------------------- Problem 1704. --------------------")
 	for _, e := range ex {
 		_, p := e.ans1704, e.params1704
 		fmt.Printf("Input: %v\nOutput: %v\n", p.str, halvesAreAlike(p.str))
