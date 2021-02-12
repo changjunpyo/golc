@@ -33,7 +33,7 @@ func Test_Problems1(t *testing.T) {
 			ans1{[]int{0, 1}},
 		},
 	}
-	fmt.Println("-------------------- Problem 1. --------------------")
+	fmt.Println("-------------------- Problem 1.  --------------------")
 	for _, e := range ex {
 		_, p := e.ans1, e.params1
 		fmt.Printf("Input: %v\n Output: %v\n", p.nums, twoSum(p.nums, p.target))
