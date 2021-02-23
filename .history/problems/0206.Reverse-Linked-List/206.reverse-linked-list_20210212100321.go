@@ -1,8 +1,5 @@
 package problems
 
-import "github.com/changjunpyo/golang-leetcode/dataStructures"
-
-// ListNode is linked linked data structure
 type ListNode = dataStructures.ListNode
 
 func reverseList(head *ListNode) *ListNode {

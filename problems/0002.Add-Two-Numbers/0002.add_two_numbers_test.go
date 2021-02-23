@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/changjunpyo/golang-leetcode/data-structures"
+	data_structures "github.com/changjunpyo/golang-leetcode/dataStructures"
 )
 
 type examples2 struct {

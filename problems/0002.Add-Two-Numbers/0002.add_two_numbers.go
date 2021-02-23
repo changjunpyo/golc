@@ -1,11 +1,11 @@
 package problems
 
 import (
-	"github.com/changjunpyo/golang-leetcode/data-structures"
+	"github.com/changjunpyo/golang-leetcode/dataStructures"
 )
 
 // Definition for singly-linked list.
- type ListNode = data_structures.ListNode
+type ListNode = dataStructures.ListNode
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	head := &ListNode{Val: -1}
